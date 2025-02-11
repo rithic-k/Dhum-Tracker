@@ -1,0 +1,22 @@
+name: dhum_tracker
+description: A minimalistic cigarette tracking app.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.1"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
